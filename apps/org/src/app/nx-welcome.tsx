@@ -1,4 +1,5 @@
-import {Aboutus} from '@org/aboutus'
+import { Aboutus } from '@org/aboutus';
+import { Contactus } from '@org/contactus';
 /*
  * * * * * * * * * * * * * * * * * * * * * * * * * * * *
  This is a starter component and can be deleted.
@@ -839,11 +840,11 @@ export function NxWelcome({ title }: { title: string }) {
           </p>
         </div>
       </div>
-       <div>
+      <div>
         <Aboutus></Aboutus>
-       </div>
+        <Contactus></Contactus>
+      </div>
     </>
-    
   );
 }
 
