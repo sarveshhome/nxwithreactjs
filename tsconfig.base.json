@@ -15,7 +15,8 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@org/aboutus": ["libs/aboutus/src/index.ts"]
+      "@org/aboutus": ["libs/aboutus/src/index.ts"],
+      "@org/contactus": ["libs/contactus/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
